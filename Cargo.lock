@@ -24,6 +24,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "basic_led"
+version = "0.1.0"
+dependencies = [
+ "esp-backtrace",
+ "esp-bootloader-esp-idf",
+ "esp-hal",
+ "esp-println",
+]
+
+[[package]]
 name = "bitfield"
 version = "0.19.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
