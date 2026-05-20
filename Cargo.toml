@@ -3,6 +3,8 @@ resolver = "2"
 members = [
     "hello_world",
     "basic_led",
+    "led_buttom_blinking", 
+    "multi_led",
 ]
 
 [workspace.dependencies]
